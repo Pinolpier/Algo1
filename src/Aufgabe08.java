@@ -1,13 +1,13 @@
 import java.util.Arrays;
 
-public class Aufgabe8 {
+public class Aufgabe08 {
     public static void main(String[] args) {
         double[][] a = {{1,2}, {3,4}, {5,6}};
         double b = 2;
 
         double[][] solution = scalarMultiplication(a, b);
-        System.out.println(Arrays.deepToString(a));
-        System.out.println(Arrays.deepToString(solution));
+        System.out.println("Input: " + Arrays.deepToString(a));
+        System.out.println("Solution: " + Arrays.deepToString(solution));
     }
 
     private static double[][] scalarMultiplication(double[][] a, double b) {

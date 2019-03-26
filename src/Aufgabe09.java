@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Aufgabe9 {
+public class Aufgabe09 {
     public static void main(String[] args) {
         double[][] a = {{1,2}, {3,4}};
         double[][] b = {{5,6}, {7,8}};
